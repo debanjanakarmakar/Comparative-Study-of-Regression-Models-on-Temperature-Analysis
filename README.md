@@ -10,6 +10,24 @@ Regression models used
 
 4.XGBoost
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Support Vector Reression
 
 Support Vector Regression is the model that when run on the dataset, gives best results when kernel used is Radial Basis Function.
