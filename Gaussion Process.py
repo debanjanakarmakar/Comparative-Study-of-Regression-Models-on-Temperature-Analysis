@@ -66,5 +66,5 @@ plt.fill(np.concatenate([x_v, x_v[::-1]]),
                         (y_pred + 1.9600 * sigma)[::-1]]),
          alpha=.5, fc='b', ec='None', label='95% confidence interval')
 plt.xlabel('Time (in months from 2011)')
-plt.ylabel('Temperature(in degree Celcius)')
+plt.ylabel('Temperature(in degree Celsius)')
 plt.legend()
