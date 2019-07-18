@@ -80,6 +80,6 @@ plt.title("XGBoost Regression")
 plt.plot(np.arange(len(y_valid)),y_valid,label='original')
 plt.plot(np.arange(len(y_valid)),p6,label='Prediction')
 plt.xlabel('Time (in months from 2011)')
-plt.ylabel('Temperature(in degree Celcius)')
+plt.ylabel('Temperature(in degree Celsius)')
 plt.legend()
 
