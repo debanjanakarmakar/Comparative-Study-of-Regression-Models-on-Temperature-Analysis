@@ -2,7 +2,7 @@
 
 Regression models used:
 
-1. SVR
+1.SVR
 
 2.Random Forest
 
