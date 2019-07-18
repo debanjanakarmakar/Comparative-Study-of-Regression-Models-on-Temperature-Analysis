@@ -4,9 +4,9 @@ Regression models used
 
 1.SVR 
 
-2.Gaussian Process
+2.Random Forest
 
-3.RandomForest
+3.Gaussian Process
 
 4.XGBoost
 
@@ -40,3 +40,25 @@ n_estimators=42
 criterion="mse"
 
 Minimum Mean squared error =6.301781523292209
+
+## XGBoost Regression:
+
+![XGB](https://user-images.githubusercontent.com/37043631/61465058-fd36ed00-a994-11e9-9ba7-3bae23e35d6b.png)
+
+Mean Squared Error: 6.827033810901381
+
+### Parameters:-
+
+n_estimators= 500
+
+learning_rate= 0.05
+
+early_stopping_rounds=5
+
+## Gaussian Process Regression:
+
+![GP](https://user-images.githubusercontent.com/37043631/61465094-0922af00-a995-11e9-9337-6b85be4cdf0a.png)
+
+Mean Squared Error: 13.494105815760902
+
+kernel = DotProduct() + WhiteKernel()
