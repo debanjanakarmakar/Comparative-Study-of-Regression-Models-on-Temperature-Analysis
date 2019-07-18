@@ -4,7 +4,7 @@ Regression models used
 
 1.SVR 
 
-2.Gaussian
+2.Gaussian Process
 
 3.RandomForest
 
